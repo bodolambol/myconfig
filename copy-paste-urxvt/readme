@@ -1,0 +1,3 @@
+copy file "clipboard" to:
+
+/usr/lib/urxvt/perl/

@@ -1,0 +1,80 @@
+! urxvt
+
+URxvt*geometry:            125x18
+!URxvt*font: xft:Liberation Mono:pixelsize=14:antialias=false:hinting=true
+!URxvt.font: xft:TerminessTTF Nerd Font:pixelsize:16
+!URxvt*boldFont: xft:Inconsolata:bold:pixelsize=17:antialias=false:hinting=true
+!URxvt*boldFont: xft:Liberation Mono:bold:pixelsize=14:antialias=false:hinting=true
+ 
+!URxvt*font:                xft:RobotoMono Nerd Font:pixelsize=13:minspace=False
+URxvt*font:                xft:Inconsolata Nerd Font Mono:pixelsize=12:minspace=False
+URxvt*boldFont:            xft:Inconsolata Nerd Font Mono:pixelsize=11:minspace=Falseans:pixelsize=11
+URxvt*letterSpace:          -1
+
+
+URxvt*depth:                30
+URxvt*borderless:           1
+URxvt*scrollBar:            false
+URxvt*saveLines:            10000
+URxvt.transparent:          false
+URxvt*.shading:             10
+
+! Meta modifier for keybindings
+!URxvt.modifier: super
+
+!! perl extensions
+URxvt.perl-ext:             default,url-select,clipboard
+
+! url-select (part of urxvt-perls package)
+URxvt.keysym.M-u:           perl:url-select:select_next
+URxvt.url-select.autocopy:  true
+URxvt.url-select.button:    2
+URxvt.url-select.launcher:  firefox
+URxvt.url-select.underline: true
+
+! Nastavuje kopirovani
+URxvt.keysym.Shift-Control-V: perl:clipboard:paste
+URxvt.keysym.Shift-Control-C:   perl:clipboard:copy
+
+! disable the stupid ctrl+shift 'feature'
+URxvt.iso14755: false
+URxvt.iso14755_52: false
+
+!urxvt color scheme:
+URxvt.background: [100]#1E2225
+!URxvt.background: [100]#232729
+URxvt*background: #2B2B2B
+URxvt*foreground: #dfdfdf
+
+
+!URxvt*background:         #2e3436
+!URxvt*foreground:         #eeeeec
+URxvt*cursorColor:         #cca766
+! foreground color for underline
+ URxvt*colorUL:            #8ae234
+ ! line color for underline
+ URxvt*underlineColor:     #92659a
+ ! black dark/light
+ URxvt*color0:             #2e3436
+ URxvt*color8:             #6e706b
+ ! green dark/light
+ URxvt*color1:             #e16569
+ URxvt*color9:             #316569
+ ! red dark/light
+ URxvt*color2:             #8ae234
+ URxvt*color10:            #8ae234
+ ! yellow dark/light
+ URxvt*color3:             #cca766
+ URxvt*color11:            #cca766
+ ! blue dark/light
+ URxvt*color4:             #81a1c1
+ URxvt*color12:            #81a1c1
+ ! magenta dark/light
+ URxvt*color5:             #c19fbe
+ URxvt*color13:            #c19fbe
+ ! cyan dark/light
+ URxvt*color6:             #63e9e9
+ URxvt*color14:            #63e9e9
+ ! white dark/light
+ URxvt*color7:             #dedede
+ URxvt*color15:            #dedede

@@ -1,0 +1,14 @@
+rofi.width: 45
+rofi.show-icons: true
+rofi.modi: run,drun,window,ssh
+rofi.lines: 6
+rofi.line-padding: 10
+rofi.matching: fuzzy
+rofi.bw: 0
+rofi.padding: 0
+rofi.separator-style: none
+rofi.hide-scrollbar: true
+rofi.line-margin: 0
+rofi.columns: 2 
+rofi.font: Bitstream Vera Sans 8 
+rofi.theme: ~/.config/rofi/buluk.rasi
