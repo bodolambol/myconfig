@@ -1,0 +1,56 @@
+list app
+
+# power manager
+xfce4-power-manager
+
+# notify
+dunst
+
+# network
+networkmanager
+networkmanager-dmenu
+
+# launcher
+rofi
+
+# terminal
+urxvt
+
+# media
+feh
+mpd, ncmpcpp
+mpv
+
+# file manager
+pcmanfm
+ranger
+
+# text editor
+vim, nano
+leafpad
+
+# appearance
+nitrogen
+lxappearance
+compton-tryone-git
+
+# driver
+alsa-utils
+xf86-video-intel
+
+# system & any tools
+
+system:
+        xorg
+        xorg-xinit
+        gvfs
+        gvfs-afc
+        gvfs-mtp
+        ntfs-3g
+        htop
+tools:
+	i3lock-blur
+        xclip
+        conky
+        xarchiver
+        p7zip
