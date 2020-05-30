@@ -37,6 +37,9 @@ compton-tryone-git
 # driver
 alsa-utils
 xf86-video-intel
+bluez-utils
+pulseaudio-alsa
+pulseaudio-bluetooth
 
 # system & any tools
 
